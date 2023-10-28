@@ -6,9 +6,9 @@ import numpy as np
 import soundfile as sf
 import torch
 
-from lib import dataset
-from lib import nets
-from lib import spec_utils
+from vocal_remover.lib import dataset
+from vocal_remover.lib import nets
+from vocal_remover.lib import spec_utils
 
 import inference
 
